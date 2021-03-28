@@ -1,0 +1,242 @@
+.root {
+  margin-left: 2.1rem;
+}
+.component {
+  height: 39rem;
+}
+.cardgrey {
+  background-color: #efefef !important;
+  padding: 1.5rem;
+  height: 26rem;
+  width: 26rem;
+}
+.bordercard {
+  border: 3px dashed grey;
+  height: 25rem;
+  width: 25rem;
+  text-align: center;
+}
+
+.content {
+  margin-top: 1rem;
+}
+.inputfile {
+  display: none;
+}
+.labelfile {
+  cursor: pointer;
+  color: #0c5081;
+  font-weight: bold;
+}
+.title {
+  color: #0c5081;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.titleDrop {
+  color: #0c5081;
+  font-weight: bold;
+
+  margin-top: 7rem;
+}
+.dropIcon {
+  border-radius: 10rem;
+  height: 3rem;
+  width: 3rem;
+}
+.uploadIcon {
+  margin-top: 6rem;
+}
+
+@media (min-width: 601px) {
+  .jobTitle {
+    display: none;
+  }
+  .job {
+    display: none;
+  }
+  .jobLg {
+    background-color: #efefef !important;
+    height: 4rem !important;
+    width: 36rem !important;
+    margin: 1rem !important;
+    margin-top: -1.3rem !important;
+    margin-bottom: 2rem !important;
+    border-left: 10px solid #0c5081 !important;
+    padding-left: 5px !important;
+  }
+  .jobTitleLg {
+    color: #0c5081 !important;
+  }
+}
+@media (max-width: 600px) {
+  .cardgrey {
+    background-color: #efefef !important;
+    padding: 1.5rem;
+    height: 26rem;
+    width: 19rem;
+  }
+  .bordercard {
+    border: 3px dashed grey;
+    height: 25rem;
+    width: 19rem;
+    text-align: center;
+  }
+  .root {
+    padding-left: 0rem;
+  }
+  .job {
+    background-color: #efefef !important;
+    height: 4rem !important;
+    width: 10rem !important;
+    margin: 1rem !important;
+    border-left: 10px solid #0c5081 !important;
+    border-right: 80px solid #90c9ed !important;
+    padding-left: 5px !important;
+  }
+  .title {
+    color: #0c5081;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 0rem;
+  }
+  .jobTitle {
+    color: #0c5081 !important;
+  }
+  .jobTitleLg {
+    display: none;
+  }
+  .jobLg {
+    display: none;
+  }
+}
+@media (max-width: 400px) {
+  .job {
+    background-color: #efefef !important;
+    height: 4rem !important;
+    width: 10rem !important;
+    margin: 1rem !important;
+    border-left: 10px solid #0c5081 !important;
+    border-right: 80px solid #90c9ed !important;
+    padding-left: 5px !important;
+  }
+  .jobTitle {
+    color: #0c5081 !important;
+  }
+  .jobTitleLg {
+    display: none;
+  }
+  .jobLg {
+    display: none;
+  }
+  .cardgrey {
+    background-color: #efefef !important;
+    padding: 1.5rem;
+    height: 26rem;
+    width: 18rem;
+  }
+  .bordercard {
+    border: 3px dashed grey;
+    height: 25rem;
+    width: 18rem;
+    text-align: center;
+  }
+  .title {
+    color: #0c5081;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 0rem;
+  }
+  .root {
+    padding-left: 0rem;
+  }
+}
+@media (max-width: 420px) {
+  .job {
+    background-color: #efefef !important;
+    height: 4rem !important;
+    width: 10rem !important;
+    margin: 1rem !important;
+    border-left: 10px solid #0c5081 !important;
+    border-right: 80px solid #90c9ed !important;
+    padding-left: 5px !important;
+  }
+  .jobTitle {
+    color: #0c5081 !important;
+  }
+  .jobTitleLg {
+    display: none;
+  }
+  .jobLg {
+    display: none;
+  }
+  .cardgrey {
+    background-color: #efefef !important;
+    padding: 1rem;
+    height: 26rem;
+    width: 17rem;
+  }
+  .bordercard {
+    border: 3px dashed grey;
+    height: 25rem;
+    width: 17rem;
+    text-align: center;
+  }
+  .title {
+    color: #0c5081;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 0rem;
+  }
+  .root {
+    padding-left: 0rem;
+  }
+}
+@media (max-width: 360px) {
+  .job {
+    background-color: #efefef !important;
+    height: 4rem !important;
+    width: 10rem !important;
+    margin: 1rem !important;
+    border-left: 10px solid #0c5081 !important;
+    border-right: 80px solid #90c9ed !important;
+    padding-left: 5px !important;
+  }
+  .jobTitle {
+    color: #0c5081 !important;
+  }
+  .jobTitleLg {
+    display: none;
+  }
+  .jobLg {
+    display: none;
+  }
+  .cardgrey {
+    background-color: #efefef !important;
+    padding: 1rem;
+    height: 23rem;
+    width: 15rem;
+  }
+  .bordercard {
+    border: 3px dashed grey;
+    height: 23rem;
+    width: 15rem;
+    text-align: center;
+  }
+  .title {
+    color: #0c5081;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 0rem;
+  }
+  .root {
+    padding-left: 0rem;
+  }
+  .titleDrop {
+    color: #0c5081;
+    font-weight: bold;
+
+    margin-top: 4rem;
+  }
+}
